@@ -12,7 +12,7 @@ import java.net.URL;
 /**
  * Created by wang on 15-1-27.
  */
-public class Test {
+public class TestSoapByCxf {
     public static void main(String[] args) {
         URL wsdlLocation= null;
         try {
