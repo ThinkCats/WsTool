@@ -12,7 +12,7 @@ public class TestSoapByAxis2 {
            /* nocPacket.setUserName("noc_hz");
             nocPacket.setPassword("noc_hz_pwd");
             nocPacket.setPayload("1232311");
-            String urlString="http://202.75.218.30:8181/EventForwarderService/EventForwarder";*/
+            String urlString="****";*/
             EventForwarderServiceStub stub=new EventForwarderServiceStub(url);
             EventForwarderServiceStub.Send send=new EventForwarderServiceStub.Send();
             send.setNocPacket(nocPacket);
